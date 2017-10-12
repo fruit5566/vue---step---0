@@ -1,34 +1,34 @@
+<!--html模板-->
 <template>
-<div class="app">
-  <img class="logo" src="./logo.png" alt="">
-  <h1>{{msg}}</h1>
-  <h2>Essential Link</h2>
-  <ul>
-    <li><a href="#" target="_blank">Hello</a></li>
-    <li><a href="#" target="_blank">Hello</a></li>
-    <li><a href="#" target="_blank">Hello</a></li>
-    <li><a href="#" target="_blank">Hello</a></li>
-  </ul>
-  <h2>Ecosystem</h2>
-  <ul>
-    <li><a href="#" target="_blank">vue-router</a></li>
-    <li><a href="#" target="_blank">vuex</a></li>
-    <li><a href="#" target="_blank">vue-loader</a></li>
-    <li><a href="#" target="_blank">awesome-vue</a></li>
-  </ul>
-</div>
+  <div class="app">  
+    <img class="logo" src="./logo.png" alt="">  
+    <h1>{{msg}}</h1>
+    <ul>
+      <li><a href="#" target="_blank">vue-router</a></li>
+      <li><a href="#" target="_blank">vuex</a></li>
+      <li><a href="#" target="_blank">vue-loader</a></li>
+      <li><a href="#" target="_blank">awesome-vue</a></li>
+    </ul>
+  </div>
 </template>
 
+<!--Javascript-->
 <script>
 export default {
-  data() {
-    return {
-      msg: 'fruit vue -- vue'
-    }
+  // data() {
+  //   return {
+  //     msg: ' vue - step - 000 '
+  //   }
+  // }
+  
+  data: function(){
+    return { msg:'vue - step - 000' }
   }
+  
 }
 </script>
 
+<!--Style-->
 <style>
 .app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
@@ -45,16 +45,19 @@ export default {
 h1,
 h2 {
   font-weight: normal;
+  word-spacing: 10px;
+  /*letter-spacing: 1px;*/
 }
 
 ul {
   list-style-type: none;
-  padding: 0
+  padding: 0;
+  margin-top: 25px
 }
 
 li {
   display: inline-block;
-  margin: 0 10px;
+  margin: 0 8px;
 }
 
 a {
