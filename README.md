@@ -1,5 +1,5 @@
 #### vue-simple简化版 
-一个单文件vue组件 + 简单的webpack配置
+简单的.vue组件 + 简配的webpack
 
 
 #### 加载器
