@@ -24,8 +24,9 @@
 - npm run build:  command in package.json ---'webpack'打包
 
 #### 文件结构
-- index.js —— js入口文件，编译成 bundle.js
-- index.html ——— html模板  引用编译后的 bundle.js 
+- index.js : js入口文件，编译成 bundle.js
+- index.html : html模板  引用编译后的 bundle.js 
+- index.vue : vue单文件组件.同一个组件的html,css,javascript写在一个文件里,所以需要vue-loader解析.
 - webpack.config.js:  webpack默认配置文件
 
 #### PS

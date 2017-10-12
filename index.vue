@@ -2,13 +2,14 @@
 <template>
   <div class="app">  
     <img class="logo" src="./logo.png" alt="">  
-    <h1>{{msg}}</h1>
+    
     <ul>
-      <li><a href="#" target="_blank">vue-router</a></li>
-      <li><a href="#" target="_blank">vuex</a></li>
-      <li><a href="#" target="_blank">vue-loader</a></li>
-      <li><a href="#" target="_blank">awesome-vue</a></li>
+      <li><a href="#" >vue</a></li>
+      <li><a href="#" >vue-router</a></li>
+      <li><a href="#" >vuex</a></li>
+      <li><a href="#" >vue-ssr</a></li>
     </ul>
+    <h3><span>{{msg}}</span></h3>
   </div>
 </template>
 
@@ -22,7 +23,7 @@ export default {
   // }
   
   data: function(){
-    return { msg:'vue - step - 000' }
+    return { msg:'Say hi to Vue' }
   }
   
 }
@@ -42,17 +43,16 @@ export default {
   width: 200px;
   height: 200px;
 }
-h1,
-h2 {
+h3 span{
+  display: inline-block;
   font-weight: normal;
-  word-spacing: 10px;
-  /*letter-spacing: 1px;*/
+  transform: rotate(90deg) translateX(56px);
 }
+
 
 ul {
   list-style-type: none;
-  padding: 0;
-  margin-top: 25px
+  padding: 0;  
 }
 
 li {
