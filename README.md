@@ -19,8 +19,9 @@
 
 
 #### 命令
-- npm run start  调用命令 'webpack-dev-server  --open' 
-- npm run build 调用命令 'webpack' 
+- npm i : 安装依赖包
+- npm run start : 调用package.json里的命令 'webpack-dev-server  --open' 
+- npm run build:  command in package.json ---'webpack'打包
 
 #### 文件结构
 - index.js —— js入口文件，编译成 bundle.js
@@ -28,8 +29,8 @@
 - webpack.config.js:  webpack默认配置文件
 
 #### PS
- - "webpack-dev-server --open" 生成的bundle在内存中, 不会显示写入文件.
- - 对比"webpack"命令, 会显示生成bundle.js
+ - "webpack-dev-server --open" 生成的bundle在web服务器内存中, 不会显式写入文件.
+ - 对比"webpack"命令, 会显式生成bundle.js
  
   
 
