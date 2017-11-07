@@ -4,10 +4,10 @@
     <img class="logo" src="./logo.png" alt="">  
     
     <ul>
-      <li><a href="#" >vue</a></li>
-      <li><a href="#" >vue-router</a></li>
-      <li><a href="#" >vuex</a></li>
-      <li><a href="#" >vue-ssr</a></li>
+      <li><a href="https://github.com/fruit5566/vue-step-0" >vue</a></li>
+      <li><a href="https://github.com/fruit5566/vue-step-1" >vue-router</a></li>
+      <li><a href="https://github.com/fruit5566/vue-step-4" >vuex</a></li>
+      <li><a href="https://github.com/fruit5566/vue-step-4" >vue-ssr</a></li>
     </ul>
     <h3><span>{{msg}}</span></h3>
   </div>

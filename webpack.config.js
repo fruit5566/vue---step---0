@@ -1,8 +1,10 @@
+const webpack = require('webpack')
 module.exports = {
   entry: './index.js',
   output: {
     filename: 'bundle.js'    
   },
+  devtool: 'inline-source-map',
   module:{
     rules:[
       {
@@ -18,6 +20,9 @@ module.exports = {
         loader: 'file-loader'
       }
     ]
-  }
+  },
+  plugins:[
+	new webpack.optimize.UglifyJsPlugin()
+  ]
 }
 
